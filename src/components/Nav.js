@@ -10,7 +10,7 @@ import NavTab from './NavTab';
 const Nav = () => {
   return (
     <ul className='h-full w-full flex flex-col py-4'>
-        <NavTab icon={<FaHome />} title="Dashboard" />
+        <NavTab icon={<FaHome />} title="Dashboard" active />
         <NavTab icon={<ImMakeGroup />} title="Products" />
         <NavTab icon={<BsCart />} title="Blog" />
         <NavTab icon={<BiWallet />} title="Transaction" />

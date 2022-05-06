@@ -9,7 +9,6 @@ const Analytics = () => {
         <Card />
         <Card />
         <Card />
-        <Card />
     </div>
   )
 }
