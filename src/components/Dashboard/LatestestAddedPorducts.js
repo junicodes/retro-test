@@ -13,7 +13,7 @@ const data = [
         status: 'Published'
     },
     {
-        photo: 'https://random.imagecdn.app/500/150',
+        photo: 'https://randomuser.me/api/portraits/men/61.jpg',
         title: 'Los Angeles Lakers City',
         subTitle: '5 Variants',
         uniqueNumber: '86984885',
@@ -22,7 +22,7 @@ const data = [
         status: 'Pending'
     },
     {
-        photo: 'https://random.imagecdn.app/500/150',
+        photo: 'https://randomuser.me/api/portraits/men/61.jpg',
         title: 'Mami Heart Courtside',
         subTitle: '4 Variants',
         uniqueNumber: '86980378885',
@@ -31,7 +31,7 @@ const data = [
         status: 'Published'
     },
     {
-        photo: 'https://random.imagecdn.app/500/150',
+        photo: 'https://randomuser.me/api/portraits/men/61.jpg',
         title: 'Liverpool FC 20/21 Stadium',
         subTitle: '7 Variants',
         uniqueNumber: '869738885',
