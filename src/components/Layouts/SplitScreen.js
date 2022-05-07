@@ -6,7 +6,7 @@ export const SplitScreen = ({ children, leftVariant = '', rightVariant = '' }) =
     const [ left, right ] = children;
 
     return (
-        <div className='flex flex-row justify-between h-full bg-red-800'>
+        <div className='flex flex-row justify-between h-full'>
             <Pane variant={leftVariant}>
                 {left}
             </Pane>
