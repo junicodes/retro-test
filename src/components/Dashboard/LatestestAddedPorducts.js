@@ -43,7 +43,7 @@ const data = [
 
 const LatestestAddedPorducts = () => {
   return (
-    <div className='bg-white h-94 w-2/3 p-4 rounded-lg'>
+    <div className='bg-white drop-shadow-xl h-94 w-2/3 p-4 rounded-lg'>
         <p className={`text-sm pl-2 flex items-center`}>
             Latest Added Products
         </p>
