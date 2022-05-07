@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { v4 as uuidv4 } from 'uuid';
 
 const data = [
     {
@@ -24,7 +25,7 @@ const data = [
         photo: 'https://random.imagecdn.app/500/150',
         title: 'Mami Heart Courtside',
         subTitle: '4 Variants',
-        uniqueNumber: '86984885',
+        uniqueNumber: '86980378885',
         category: 'Jersey',
         date: '02.11.2021',
         status: 'Published'
@@ -49,7 +50,7 @@ const LatestestAddedPorducts = () => {
         <div className='w-full h-full px-4'>
            {
                data.map(item => (
-                <div className='flex flex-row py-4 items-center justify-between w-full'>
+                <div key={item.uniqueNumber} className='flex flex-row py-4 items-center justify-between w-full'>
                     <div className="rounded-md flex justify-start space-x-2 items-center w-2/6 truncate h-12">
                         <img className="rounded-md border border-gray-100 shadow-sm w-12 h-12" src={item.photo} alt="user image" />
                         <div>
