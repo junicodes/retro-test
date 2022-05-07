@@ -108,7 +108,7 @@ const filterDropDown = [
 
 const SaleOverview = () => {
   return (
-    <div className='h-96 w-full mt-3 rounded-xl bg-white drop-shadow-xl'>
+    <div className='h-96 w-full mt-3 rounded-xl bg-white drop-shadow-lg'>
         <div className='w-full border-b h-16 flex flex-row px-4 items-center justify-between'>
           <h4 className='font-bold'>
               Sales Ovieview
