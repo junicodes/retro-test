@@ -4,7 +4,7 @@ import Card from '../Sub-Components/Card'
 
 const Analytics = () => {
   return (
-    <div className='flex w-full space-x-2 h-36 mt-4'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-2 w-full mt-4'>
         <Card 
             header="Daily Income"
             amount="500"

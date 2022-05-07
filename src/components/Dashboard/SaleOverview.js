@@ -108,7 +108,7 @@ const filterDropDown = [
 
 const SaleOverview = () => {
   return (
-    <div className='h-96 w-full mt-3 rounded-xl bg-white drop-shadow-lg'>
+    <div className='h-96 w-full mt-3 rounded-xl bg-white drop-shadow-md'>
         <div className='w-full border-b h-16 flex flex-row px-4 items-center justify-between'>
           <h4 className='font-bold'>
               Sales Ovieview
@@ -118,8 +118,8 @@ const SaleOverview = () => {
             clickHandler={(e) => console.log("button clicked", e)}
           />
         </div>
-        <div className='w-full h-80 relative rounded-b-xl'>
-            <div className='flex justify-between items-center px-5 py-1'>
+        <div className='w-full h-72 md:h-80 relative rounded-b-xl'>
+            <div className='flex flex-col md:flex-row justify-between items-center px-5 py-1'>
                <p className="text-black font-bold text-xs text-left px-2 py-2">Invoice</p>
                <div className='flex justify-end space-x-2 items-center'>
                   <p className="text-black text-xs pr-2 flex items-center">

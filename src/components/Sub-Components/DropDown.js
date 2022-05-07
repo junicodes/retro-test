@@ -27,7 +27,7 @@ const DropDown = ({ onChange, payload, variant = "" }) => {
       <div
         onClick={handleActionApi}
         data-action="show"
-        className={`${variant} border bg-white w-28 text-xs px-1 rounded-md cursor-pointer flex justify-between items-center py-1 animate__animated animate__fadeIn`}
+        className={`${variant} border bg-white w-28 text-xs px-1 rounded-md cursor-pointerZ flex justify-between items-center py-1 animate__animated animate__fadeIn`}
         title={previewSelected ? previewSelected : "Select"}
       >
         <p className="truncate">{previewSelected}</p>

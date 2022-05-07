@@ -4,9 +4,9 @@ import globalStyles from '../../styles/Global.module.scss';
 
 const Search = () => {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center drop-shadow-sm">
         <div className="flex border-2 rounded">
-            <input type="text" className={`px-4 py-2 w-56 text-xs ${globalStyles.inputElement}`} placeholder="Search..." />
+            <input type="text" className={`px-4 py-2 w-56 outline-none text-xs ${globalStyles.inputElement}`} placeholder="Search..." />
             <button className={`flex items-center justify-center px-3 ${styles.searchIcon}`}>
                 <svg className="w-5 h-5 " fill="gray" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path

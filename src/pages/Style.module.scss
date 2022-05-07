@@ -4,4 +4,7 @@
     .rightVariant {
         background: #f4f8fc;
     }
+    @media screen and (max-width: 1200px) {
+        height: 2000px;
+    }
 }

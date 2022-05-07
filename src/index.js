@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CombineContextProvider from "./context_api";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <CombineContextProvider>
+        <App />
+    </CombineContextProvider>
   </React.StrictMode>
 );
 

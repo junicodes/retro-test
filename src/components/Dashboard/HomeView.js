@@ -13,7 +13,7 @@ const HomeView = () => {
         <TopNav />
         <SaleOverview />
         <Analytics />
-        <div className='flex justify-between space-x-4 h-96 my-4'>
+        <div className='flex flex-col lg:flex-row justify-between lg:space-x-4 h-96 my-4'>
             <SellingCategories />
             <LatestestAddedPorducts />
         </div>

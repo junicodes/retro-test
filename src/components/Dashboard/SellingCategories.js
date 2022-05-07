@@ -35,8 +35,8 @@ const data = [
 
 const SellingCategories = () => {
   return (
-    <div className='h-94 w-1/3 rounded-lg p-4 bg-white drop-shadow-lg'>
-        <p className={`text-sm pl-2 flex items-center`}>
+    <div className='h-94 w-full my-2 lg:my-0 lg:w-1/3 rounded-lg p-4 bg-white drop-shadow-md'>
+        <p className={`text-sm md:pl-2 text-center md:text-left`}>
             Top Selling Categories
         </p>
         <SimpleRadialChart data={data} />

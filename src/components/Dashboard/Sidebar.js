@@ -6,7 +6,7 @@ import Nav from '../Nav'
 
 const Sidebar = () => {
   return (
-    <div className='p-5 pt-0'>
+    <div className='px-2 lg:p-5 pt-0'>
         <Logo />
         <Nav />
     </div>

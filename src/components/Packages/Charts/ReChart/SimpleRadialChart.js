@@ -6,6 +6,9 @@ const SimpleRadialChart = ({data}) => {
 
     
     return (
+      <section
+      className={`w-full h-full flex animate__animated animate__fadeIn scroller`}
+    >
       <ResponsiveContainer width="100%" height="100%">
         <RadarChart cx="50%" cy="50%" outerRadius="70%" data={data}>
            <defs>
@@ -37,6 +40,7 @@ const SimpleRadialChart = ({data}) => {
           <Legend />
         </RadarChart>
       </ResponsiveContainer>
+      </section>
     );
 }
 
