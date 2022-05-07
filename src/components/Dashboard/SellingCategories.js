@@ -35,7 +35,7 @@ const data = [
 
 const SellingCategories = () => {
   return (
-    <div className='border h-94 w-1/3 rounded-lg p-4'>
+    <div className='h-94 w-1/3 rounded-lg p-4 bg-white'>
         <p className={`text-sm pl-2 flex items-center`}>
             Top Selling Categories
         </p>
